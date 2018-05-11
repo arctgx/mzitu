@@ -30,7 +30,7 @@ class AlbumTask extends TaskBase {
             }
         }
 
-        $strLog = sprintf('process done, last id is %d\n', $lastID);
+        $strLog = sprintf('process done, last id is %d', $lastID);
         Log::output($strLog);
     }
 
@@ -52,7 +52,7 @@ class AlbumTask extends TaskBase {
             }
         }
 
-        $strLog = sprintf('process done, last id is %d\n', $lastID);
+        $strLog = sprintf('process done, last id is %d', $lastID);
         Log::output($strLog);
     }
 }
